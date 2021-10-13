@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+}
+.btn-searcher{
+ margin-bottom: 190px;
+padding-left: 30px;
+}
+.header .time{
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+}
+.header .seacher{
+    height: 28px;
+    padding: 0 5px;
+    width: 250px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.header .go-btn{
+  
+    margin-right: 98px;
+    margin-top: 200px;
+
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+margin-top: 20px;
+}
+.navbar .head{
+    font-size: 40px;
+    color:lightgray;
+    font-weight: 300;
+}
+.navbar .bordered{
+    padding: 20px 0;
+}
+.navbar .para{
+    color: lightgray;
+ font-size: 18px;
+ text-transform: capitalize;
+}
+.navbar .list{
+  
+    height: 56px;
+    width: 94px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    margin: 0 15px;
+    border: none;
+    text-transform: capitalize;
+}
+/* features secation styles */
+.features{
+    min-height: 50vh;
+    border: 1px solid gray;
+    display: flex;
+}
+.features .features-div{
+    width: 50%;
+    padding: 10px;
+}
+.features .features-div img{
+    width: 160px;
+    height: 160px;
+}
+.features .features-text{
+    padding: 10px;
+}
+.features .features-text .features-para{
+    font-size: 17px;
+}
+.features .features-text .link{
+    float: right;
+    color: orange;
+    text-decoration: none;
+    font-size: 17px;
+}
+.separator{
+    margin: 13px 0;
+}
+.lastimg{
+ border: 1px solid gray;
+ display: flex;
+ padding: 5px;
+ background-color: lightgray;
+ margin: 20px;
+
+}
+.lastimg .para2{
+padding: 5px;
+font-size: 17px;
+}
+.lastimg .link{
+ margin-top: auto;
+ float: right;
+color: orange;
+text-decoration: none;
+font-size: 17px;
+}
+.btn{
+    height: 47px;
+    width: 228px;
+    margin: 42px;
+    margin-top: 176px;
+    background-color: orange;
+    font-size: 18px;
+    color: white;
+
+}
+/* hadin secation */
+.closing{
+    margin:  30px 0;
+    display: flex;
+    height: 70%;
+    width: 100%;
+    border: 1px solid lightgray;
+    justify-content: space-around;
+}
+.img-closing{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-closing img{
+width: 150px;
+height: 100px;
+margin: 10px 20px;
+}
+.heading4{
+    margin: 20px;
+    text-transform: capitalize;
+}
+.closing .para-last{
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
